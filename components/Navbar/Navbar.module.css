@@ -1,0 +1,8 @@
+.active_nav {
+  background: black;
+  color: white !important;
+}
+
+.active_nav path {
+  stroke: white;
+}
