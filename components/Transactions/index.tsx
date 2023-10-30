@@ -50,7 +50,11 @@ export const Transactions = () => {
         </VStack>
         <HStack gap={"12px"}>
           <Filter />
-          <CustomButton label={"Explore list"} icon={<DownloadIcon />} />
+          <CustomButton
+            onClick={() => {}}
+            label={"Explore list"}
+            icon={<DownloadIcon />}
+          />
         </HStack>
       </Flex>
 
