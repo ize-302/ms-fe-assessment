@@ -71,7 +71,7 @@ const Drowpdown = ({
                 },
               }}
               value={option}
-              onChange={(e) => {
+              onChange={(e: any) => {
                 if (e.target.checked) {
                   setcheckedItems([...checkedItems, option]);
                 } else {
